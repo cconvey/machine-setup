@@ -1,4 +1,5 @@
 aptitude
+curl
 vim
 git
 openssh-client

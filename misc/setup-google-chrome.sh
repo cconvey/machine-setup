@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+set -o
 set -x
 
 mkdir -p /etc/apt/sources.list.d
