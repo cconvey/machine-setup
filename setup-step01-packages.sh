@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get update
-apt-get upgrade
-apt-get --assume-yes install $(cat "packages-ubuntu18.04.txt")
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get --assume-yes install $(cat "packages-ubuntu18.04.txt")
 
