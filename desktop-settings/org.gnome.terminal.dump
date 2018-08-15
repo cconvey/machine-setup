@@ -1,0 +1,14 @@
+[legacy]
+mnemonics-enabled=true
+schema-version=uint32 3
+
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(255,255,255)'
+visible-name='cconvey-profile'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+font='Source Code Pro 13'
+background-color='rgb(0,0,0)'
+audible-bell=false
+scrollback-lines=100000
