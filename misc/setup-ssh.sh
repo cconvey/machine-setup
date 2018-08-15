@@ -34,6 +34,5 @@ declare COMMON_CF_IN_REPO="${HOME}/r/cconvey/tools-configs/master/my-home-dir/ss
 ln -s "${COMMON_CF_IN_REPO}" "${COMMON_CF_LINK}"
 
 echo "" >> "${CF}"
-echo "Include ${COMMON_CF_LINK}" >> "${CF}"
-echo "" >> "${CF}"
+echo "Include ./config-common" >> "${CF}"
 
