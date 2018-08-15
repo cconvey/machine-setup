@@ -1,6 +1,6 @@
 #!/bin/bash
 set -x
 
-apt install apt-file
-apt-file update
+sudo apt install --assume-yes apt-file
+sudo apt-file update
 

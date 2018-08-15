@@ -3,7 +3,7 @@ set -e
 set -x
 set -u
 
-sudo apt install \
+sudo apt install --assume-yes \
     exuberant-ctags \
     fonts-powerline
 

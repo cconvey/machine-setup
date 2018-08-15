@@ -15,5 +15,3 @@ declare FONTS_DEST_DIR="${HOME}/.fonts"
 mkdir -p "${FONTS_DEST_DIR}"
 unzip ${FONTS_SRC_DIR}/*.zip -d "${FONTS_DEST_DIR}"
 sudo fc-cache -f -v
-
-

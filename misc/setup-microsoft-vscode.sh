@@ -11,6 +11,6 @@ curl https://packages.microsoft.com/keys/microsoft.asc \
     | gpg --dearmor \
     | sudo tee /etc/apt/trusted.gpg.d/microsoft.gpg
 
-apt-get update
-apt install code
+sudo apt-get update
+sudo apt install --assume-yes code
 
