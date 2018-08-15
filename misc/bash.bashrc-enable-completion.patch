@@ -1,0 +1,32 @@
+--- bash.bashrc.orig	2018-08-15 09:20:16.351205751 -0400
++++ bash.bashrc	2018-08-15 09:24:05.161553751 -0400
+@@ -32,13 +32,13 @@
+ #esac
+ 
+ # enable bash completion in interactive shells
+-#if ! shopt -oq posix; then
+-#  if [ -f /usr/share/bash-completion/bash_completion ]; then
+-#    . /usr/share/bash-completion/bash_completion
+-#  elif [ -f /etc/bash_completion ]; then
+-#    . /etc/bash_completion
+-#  fi
+-#fi
++if ! shopt -oq posix; then
++  if [ -f /usr/share/bash-completion/bash_completion ]; then
++    . /usr/share/bash-completion/bash_completion
++  elif [ -f /etc/bash_completion ]; then
++    . /etc/bash_completion
++  fi
++fi
+ 
+ # sudo hint
+ if [ ! -e "$HOME/.sudo_as_admin_successful" ] && [ ! -e "$HOME/.hushlogin" ] ; then
+@@ -47,7 +47,7 @@
+ 	cat <<-EOF
+ 	To run a command as administrator (user "root"), use "sudo <command>".
+ 	See "man sudo_root" for details.
+-	
++
+ 	EOF
+     fi
+     esac

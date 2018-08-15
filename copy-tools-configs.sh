@@ -12,6 +12,7 @@ cp    "${SRC_ROOT}/gdbinit"          ~/.gdbinit
 cp    "${SRC_ROOT}/gitconfig"        ~/.gitconfig
 cp    "${SRC_ROOT}/gitignore_global" ~/.gitignore_global
 ln -s "${SRC_ROOT}/vimrc"            ~/.vimrc
+ln -s "${SRC_ROOT}/bashrc_common.sh" ~/.bashrc_common
 
 mkdir -p ~/bin
 cp "${SRC_ROOT}/bin/v" ~/bin/

@@ -2,6 +2,9 @@
 set -x
 set -e
 
+echo "THIS CONFLICTS WITH OTHER SCRIPTS OF MINE" >&2
+exit 1
+
 export REPO_NAME=cconvey/tool-configs
 export REPO_DIR=~/r/${REPO_NAME}
 export REPO_URL="git@github.com:${REPO_NAME}.git"
@@ -33,7 +36,7 @@ for F in \
 	gitignore_global \
 	screenrc \
 	vimrc
-do 
+do
 	cp "${MHD}/${F}" "${HOME}/.${F}"
 done
 
