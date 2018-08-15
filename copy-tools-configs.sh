@@ -22,7 +22,7 @@ if [[ -f ~/.bashrc_common.sh ]]; then
     cp ~/.bashrc_common.sh ~/.bashrc_common.sh.bak
     rm ~/.bashrc_common.sh
 fi
-ln -s "${SRC_ROOT}/bashrc_common.sh" ~/.bashrc_common
+ln -s "${SRC_ROOT}/bashrc_common.sh" ~/.bashrc_common.sh
 
 mkdir -p ~/bin
 cp "${SRC_ROOT}/bin/v" ~/bin/
