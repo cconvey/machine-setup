@@ -5,3 +5,4 @@ meld
 cmake
 cmake-curses-gui
 gitk
+tig
