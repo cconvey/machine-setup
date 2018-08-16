@@ -3,7 +3,7 @@ set -e
 set -u
 set -x
 
-declare SRC_ROOT=~/r/cconvey/tools-configs/master/my-home-dir
+declare SRC_ROOT=~/r/cconvey/tool-configs/master/my-home-dir
 
 cp    "${SRC_ROOT}/ctags"            ~/.ctags
 cp -r "${SRC_ROOT}/dot-config"       ~/.config

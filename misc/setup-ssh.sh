@@ -14,7 +14,7 @@ if [[ ! -d "${HOME}/.ssh" ]]; then
     declare OLD_UMASK="$(umask -S)"
     umask -S u=rwx,g=,o=
     mkdir -p "${HOME}/.ssh"
-    unask -S "${OLD_UMASK}"
+    umask -S "${OLD_UMASK}"
 fi
 
 CF="${HOME}/.ssh/config"

@@ -5,11 +5,5 @@ git
 openssh-client
 openssh-server
 build-essential
-clang
-gcc
-gdb
-meld
-cmake
-cmake-curses-gui
 fonts-powerline
 cinnamon
